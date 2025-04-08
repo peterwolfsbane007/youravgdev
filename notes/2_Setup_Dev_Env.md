@@ -10,7 +10,8 @@
 	+ `.bash_history` file stores your bash terminal history. It is updated everytime you close your terminal.
 	+ To check current history, you can use command `history`
 
-## Install packages.
+## Install packages
+
 + `curl`, `vim` and `build-essential`
 + Use command `sudo apt install curl vim build-essential -y`
 	+ Command line option `-y` here avoids asking you for confirmation, without it you will be asked Y/n everytime to install.
@@ -39,7 +40,8 @@
 > [!TIP]  
 > If you want to add a gitignore file to your nodejs project, then youravgdev uses this command &rArr; `npx gitignore node`
 
-## **IDE**  
+## IDE
+
 + Download VScode, although it's not an IDE, but it's good for code editing.  
 + Get `.deb` file from VSCode official website.
 + To install `.deb` package:
@@ -60,26 +62,29 @@
 + `touch <filename>` creates an empty file
 + `which <commandName>` shows the absolute path of the executable
 
-## **Automating using bash script**  
+## Automating using bash script
 We can automate running commands by using a bash script.  
 Here is an example bash script.  
-	`post-install.sh`
-	```bash
-	#!/bin/bash
-	# Get the basic dependencies setup
-	sudo apt update
-	sudo apt upgrade -y
-	sudo apt install curl vim build-essential gnome-tweaks -y
+`post-install.sh`
 
-	# Install volta (volta.sh)
-	curl https://get.volta.sh | bash
+```bash
+#!/bin/bash
+# Get the basic dependencies setup
+sudo apt update
+sudo apt upgrade -y
+sudo apt install curl vim build-essential gnome-tweaks -y
 
-	# Install nodeJS using volta from absolute path
-	$HOME/.volta/bin/volta install node@lts
-	```
-	+ The first line is called `shebang` line, which tells which shell to use
-	+ `gnome-tweaks` is like a user interface enhancer, allows you change cursor size, change keybindings etc.
-	+ `$HOME` is an variable that stores path to user's home directory.
+# Install volta (volta.sh)
+curl https://get.volta.sh | bash
+
+# Install nodeJS using volta from absolute path
+$HOME/.volta/bin/volta install node@lts
+```
++ The first line is called `shebang` line, which tells which shell to use
++ `gnome-tweaks` is like a user interface enhancer, allows you change cursor size, change keybindings etc.
++ `$HOME` is an variable that stores path to user's home directory.
+
+## Install VirtualBox
 + You can use oracle virtualbox for Virtual Machine manager. Download its deb file and install.
 + `echo $USER` prints the name of the user.
 + `groups <username>` shows all the groups user is in.
