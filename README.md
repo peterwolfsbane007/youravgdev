@@ -9,5 +9,5 @@ Following the footsteps of [@youravgdev](https://youtube.com/@YourAvgDev/)
 
 ## Let's begin
 
-+ [x] 1. Installing Ubuntu for Software Development [&rArr; notes](./notes/1_Install_Ubuntu.md)
-+ [x] 2. Setting up a Dev Environment and Our First Script [&rArr; notes](./notes/2_Setup_Dev_Env.md)
++ [x] 1. Installing Ubuntu for Software Development [&rArr; notes](./notes/01_Install_Ubuntu.md)
++ [x] 2. Setting up a Dev Environment and Our First Script [&rArr; notes](./notes/02_Setup_Dev_Env.md)

@@ -93,3 +93,5 @@ $HOME/.volta/bin/volta install node@lts
 	+ `id -g` to get current primary group.
 	+ `newgrp vboxusers` switches you to that group and adds that to the list returned by `groups <username>` or `id -G`
 	+ `newgrp <originamGroupName> ` to switch back to original primary group.
+
+[NEXT NOTE &Rarr;](./03_Create_a_VM_in_vbox.md)
