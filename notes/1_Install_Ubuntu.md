@@ -21,5 +21,5 @@
 > [!NOTE]  
 > Avg dev uses **elgato capture card**, to record his screen, even in BIOS mode.
 
-[NEXT NOTE &Rarr;](./2_Setup_Dev_Env)
+[NEXT NOTE &Rarr;](./2_Setup_Dev_Env.md)
 
