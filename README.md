@@ -11,3 +11,4 @@ Following the footsteps of [@youravgdev](https://youtube.com/@YourAvgDev/)
 
 + [x] 1. Installing Ubuntu for Software Development [&rArr; notes](./notes/01_Install_Ubuntu.md)
 + [x] 2. Setting up a Dev Environment and Our First Script [&rArr; notes](./notes/02_Setup_Dev_Env.md)
++ [ ] 3. Struggling to Create a VM in VirtualBox [&rArr; notes](./notes/03_Create_a_VM.md)
